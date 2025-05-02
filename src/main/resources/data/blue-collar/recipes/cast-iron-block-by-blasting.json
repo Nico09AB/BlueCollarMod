@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:blasting",
+  "category": "misc",
+  "cookingtime": 2000,
+  "experience": 5.5,
+  "ingredient": {
+    "item": "minecraft:iron_block"
+  },
+  "result": "blue-collar:cast-iron-ingot"
+}

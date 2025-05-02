@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "blue-collar:steel-ingot"
+    }
+  },
+  "result": {
+    "item": "blue-collar:steel-block"
+  }
+}

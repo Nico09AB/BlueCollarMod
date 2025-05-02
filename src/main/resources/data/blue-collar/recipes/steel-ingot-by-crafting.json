@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "ingredients": [
+    {
+      "item": "blue-collar:steel-block"
+    }
+  ],
+  "result": {
+    "item": "blue-collar:steel-ingot",
+    "count": 9
+  }
+}
