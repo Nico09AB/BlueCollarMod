@@ -22,9 +22,15 @@ public class ModItemsGroup {
                     new Identifier(BlueCollarMod.MOD_ID, "metals"),
                     FabricItemGroup.builder()
                             .displayName(Text.translatable("itemgroup.metals"))
-                            .icon(() -> new ItemStack(Items.GOLD_INGOT))
+                            .icon(() -> new ItemStack(ModItems.STEEL_INGOT))
                             .entries((displayContext, entries) -> {
+                                entries.add(ModItems.STEEL_INGOT);
+                                entries.add(ModItems.CAST_IRON_INGOT);
+                                entries.add(ModItems.ALUMINUM_INGOT);
 
+                                entries.add(ModBlocks.STEEL_BLOCK);
+                                entries.add(ModBlocks.CAST_IRON_BLOCK);
+                                entries.add(ModBlocks.ALUMINUM_BLOCK);
 
                                 entries.add(Items.IRON_INGOT);
                                 entries.add(Items.COPPER_INGOT);
