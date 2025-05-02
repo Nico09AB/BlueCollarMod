@@ -1,5 +1,8 @@
 package ab.bluecollar;
 
+import ab.bluecollar.block.ModBlocks;
+import ab.bluecollar.item.ModItems;
+import ab.bluecollar.item.ModItemsGroup;
 import net.fabricmc.api.ModInitializer;
 
 import org.slf4j.Logger;
@@ -12,6 +15,9 @@ public class BlueCollarMod implements ModInitializer {
 
 	@Override
 	public void onInitialize() {
+		ModItems.registerModItems();
+		ModItemsGroup.registerModItemsGroup();
 
+		ModBlocks.registerModBlocks();
 	}
 }

@@ -1,0 +1,6 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "blue-collar:block/cast-iron-block"
+  }
+}

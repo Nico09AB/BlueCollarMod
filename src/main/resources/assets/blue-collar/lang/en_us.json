@@ -1,0 +1,9 @@
+{
+  "item.blue-collar.steel-ingot": "Steel Ingot",
+  "item.blue-collar.cast-iron-ingot": "Cast Iron Ingot",
+
+  "block.blue-collar.steel-block": "Block of Steel",
+  "block.blue-collar.cast-iron-block": "Block of Cast Iron",
+
+  "itemgroup.metals": "Metallics"
+}
