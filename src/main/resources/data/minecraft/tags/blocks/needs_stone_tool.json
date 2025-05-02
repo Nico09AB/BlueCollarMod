@@ -1,6 +1,7 @@
 {
   "replace": false,
   "values": [
-    "blue-collar:aluminum-block"
+    "blue-collar:aluminum-block",
+    "blue-collar:aluminum-ore"
   ]
 }
