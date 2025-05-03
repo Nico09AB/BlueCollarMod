@@ -2,14 +2,14 @@
   "item.blue-collar.steel-ingot": "Steel Ingot",
   "item.blue-collar.cast-iron-ingot": "Cast Iron Ingot",
   "item.blue-collar.aluminum-ingot": "Aluminum Ingot",
-  "item.blue-collar.raw-aluminum": "Raw Aluminum",
+  "item.blue-collar.raw-bauxite": "Raw Bauxite",
 
   "block.blue-collar.steel-block": "Block of Steel",
   "block.blue-collar.cast-iron-block": "Block of Cast Iron",
   "block.blue-collar.aluminum-block": "Block of Aluminum",
 
-  "block.blue-collar.aluminum-ore": "Aluminum Ore",
-  "block.blue-collar.deepslate-aluminum-ore": "Deepslate Aluminum Ore",
+  "block.blue-collar.bauxite-ore": "Bauxite Ore",
+  "block.blue-collar.deepslate-bauxite-ore": "Deepslate Bauxite Ore",
 
 
   "itemgroup.metals": "Metallics"

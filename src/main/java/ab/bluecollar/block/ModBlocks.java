@@ -29,10 +29,14 @@ public class ModBlocks {
         return Registry.register(Registries.BLOCK, new Identifier(BlueCollarMod.MOD_ID, name), block);
     }
 
+    /* Blocks */
+
     public static final Block STEEL_BLOCK = registerBlock("steel-block", new Block(FabricBlockSettings.copyOf(Blocks.IRON_BLOCK).sounds(BlockSoundGroup.NETHERITE)));
     public static final Block CAST_IRON_BLOCK = registerBlock("cast-iron-block", new Block(FabricBlockSettings.copyOf(Blocks.IRON_BLOCK).sounds(BlockSoundGroup.NETHERITE)));
     public static final Block ALUMINUM_BLOCK = registerBlock("aluminum-block", new Block(FabricBlockSettings.copyOf(Blocks.IRON_BLOCK)));
 
-    public static final Block ALUMINUM_ORE = registerBlock("aluminum-ore", new ExperienceDroppingBlock(FabricBlockSettings.copyOf(Blocks.STONE).strength(3.0f, 20f), UniformIntProvider.create(2, 5)));
-    public static final Block DEEPSLATE_ALUMINUM_ORE = registerBlock("deepslate-aluminum-ore", new ExperienceDroppingBlock(FabricBlockSettings.copyOf(Blocks.DEEPSLATE).strength(4.5f, 20f), UniformIntProvider.create(2, 5)));
+    /* Ores */
+
+    public static final Block BAUXITE_ORE = registerBlock("bauxite-ore", new ExperienceDroppingBlock(FabricBlockSettings.copyOf(Blocks.STONE).strength(3.0f, 20f), UniformIntProvider.create(2, 5)));
+    public static final Block DEEPSLATE_BAUXITE_ORE = registerBlock("deepslate-bauxite-ore", new ExperienceDroppingBlock(FabricBlockSettings.copyOf(Blocks.DEEPSLATE).strength(4.5f, 20f), UniformIntProvider.create(2, 5)));
 }

@@ -4,7 +4,7 @@
   "cookingtime": 200,
   "experience": 1.0,
   "ingredient": {
-    "item": "blue-collar:raw-aluminum"
+    "item": "blue-collar:raw-bauxite"
   },
   "result": "blue-collar:aluminum-ingot"
 }

@@ -1,6 +1,6 @@
 {
   "parent": "block/cube_all",
   "textures": {
-    "all": "blue-collar:block/aluminum-ore"
+    "all": "blue-collar:block/bauxite-ore"
   }
 }

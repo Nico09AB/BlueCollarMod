@@ -4,7 +4,7 @@
     "blue-collar:steel-block",
     "blue-collar:cast-iron-block",
     "blue-collar:aluminum-block",
-    "blue-collar:aluminum-ore",
-    "blue-collar:deepslate-aluminum-ore"
+    "blue-collar:bauxite-ore",
+    "blue-collar:deepslate-bauxite-ore"
   ]
 }

@@ -24,7 +24,7 @@
                   }
                 }
               ],
-              "name": "blue-collar:deepslate-aluminum-ore"
+              "name": "blue-collar:deepslate-bauxite-ore"
             },
             {
               "type": "minecraft:item",
@@ -47,7 +47,7 @@
                   "function": "minecraft:explosion_decay"
                 }
               ],
-              "name": "blue-collar:raw-aluminum"
+              "name": "blue-collar:raw-bauxite"
             }
           ]
         }
@@ -55,5 +55,5 @@
       "rolls": 1.0
     }
   ],
-  "random_sequence": "blue-collar:blocks/deepslate-aluminum-ore"
+  "random_sequence": "blue-collar:blocks/deepslate-bauxite-ore"
 }

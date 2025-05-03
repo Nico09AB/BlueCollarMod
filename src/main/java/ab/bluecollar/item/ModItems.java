@@ -20,19 +20,20 @@ public class ModItems {
     }
 
     private static void addItemsToCreativeModTab(FabricItemGroupEntries entries) {
-        entries.add(RAW_ALUMINUM);
-        entries.add(ModBlocks.ALUMINUM_ORE);
+        entries.add(RAW_BAUXITE);
+        entries.add(ModBlocks.BAUXITE_ORE);
+        entries.add(ModBlocks.DEEPSLATE_BAUXITE_ORE);
     }
 
     private static Item registerItem(String name, Item item) {
         return Registry.register(Registries.ITEM, new Identifier(BlueCollarMod.MOD_ID, name), item);
     }
 
-    /* Minecraft Items */
+    /* Items */
 
     public static final Item STEEL_INGOT = registerItem("steel-ingot", new Item(new FabricItemSettings()));
     public static final Item CAST_IRON_INGOT = registerItem("cast-iron-ingot", new Item(new FabricItemSettings()));
 
     public static final Item ALUMINUM_INGOT = registerItem("aluminum-ingot", new Item(new FabricItemSettings()));
-    public static final Item RAW_ALUMINUM = registerItem("raw-aluminum", new Item(new FabricItemSettings()));
+    public static final Item RAW_BAUXITE = registerItem("raw-bauxite", new Item(new FabricItemSettings()));
 }
